@@ -134,8 +134,20 @@ a{
 }
 #modal{
    display: none;
-   
+   border-radius: 6px;
 }
 input[type=email]{
-   padding: 5px;
+   padding: 7px;
+   border: 1px solid black;
+   border-radius: 5px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+input[type=submit]{
+   background-color: #EA6E20;
+   border: none;
+   padding: 7px;
+   border-radius: 4px;
+
+   color: white;
 }
